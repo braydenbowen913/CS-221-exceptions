@@ -1,7 +1,21 @@
+import java.io.File;
+import java.util.Scanner;
+
 public class FormatChecker
 {
-    public static void main(String args[]) 
+    static boolean isValid = false;
+
+    static boolean checkFile(String fileName)
     {
 
+        return isValid;
+    }
+
+    public static void main(String args[]) 
+    {
+        for (String arg: args)
+        {
+            checkFile(arg);
+        }
     }
 }
